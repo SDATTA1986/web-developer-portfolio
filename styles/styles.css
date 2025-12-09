@@ -160,3 +160,26 @@ main section{
 hr{
     margin: 20px 5px;
 }
+
+/* footer style begins */
+
+footer{
+    display:flex;
+    padding:130px 230px;
+    gap:100px;
+}
+
+.footer-column{
+    width:50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width:100%;
+    display:block;
+    height:64px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+}
